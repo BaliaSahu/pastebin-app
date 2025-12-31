@@ -32,7 +32,7 @@ public class ContentServiceImpl implements ContentService {
 		
 		ct=this.contentRepo.save(ct);
 		CreateContentRes cr=modelMapper.map(ct, CreateContentRes.class);
-		cr.setUrl("http://localhost:8080/api/pastes/"+ct.getId());
+		cr.setUrl("https://paste-3.onrender.com/api/pastes/"+ct.getId());
 		return cr;
 	}
 	@Override
