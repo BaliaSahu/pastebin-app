@@ -41,7 +41,9 @@ MongoDB ensures the application works correctly on cloud/serverless platforms wh
 
 pastebin-app/
 ├── Backend/
+
 │ ├── src/
+
 │ │ ├── main/
 │ │ │ ├── java/com/task/
 │ │ │ │ ├── controller/ # REST controllers
