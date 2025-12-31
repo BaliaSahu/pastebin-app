@@ -39,3 +39,43 @@ MongoDB ensures the application works correctly on cloud/serverless platforms wh
 
 ## Project Structure
 
+pastebin-app/
+├── Backend/
+│ ├── src/
+│ │ ├── main/
+│ │ │ ├── java/com/task/
+│ │ │ │ ├── controller/ # REST controllers
+│ │ │ │ ├── entity/ # MongoDB entities
+│ │ │ │ ├── exceptions/ # Custom exception handling
+│ │ │ │ ├── repository/ # MongoDB repositories
+│ │ │ │ ├── request/ # Request DTOs
+│ │ │ │ ├── response/ # Response DTOs
+│ │ │ │ ├── service/ # Service interfaces
+│ │ │ │ ├── serviceImpl/ # Service implementations
+│ │ │ │ └── AssignmentApplication.java
+│ │ │ └── resources/
+│ │ │ └── application.properties
+│ │ ├── test/
+│ │ └── target/
+│ │ ├── pom.xml
+│ │ ├── mvnw
+│ │ └── mvnw.cmd
+│
+├── Frontend/
+│ ├── src/
+│ │ ├── assets/ # Images and static assets
+│ │ ├── components/ # Reusable UI components
+│ │ ├── pages/ # Page-level components
+│ │ ├── utils/ # API helpers
+│ │ ├── App.jsx
+│ │ ├── main.jsx
+│ │ ├── App.css
+│ │ └── index.css
+│ ├── public/
+│ ├── index.html
+│ ├── package.json
+│ ├── package-lock.json
+│ ├── vite.config.js
+│ └── eslint.config.js
+│
+└── README.md
