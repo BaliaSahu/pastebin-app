@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.task.response.Healthz;
 
 @RestController
-@CrossOrigin(origins="http://localhost:5173")
+@CrossOrigin(origins="https://pasteb.netlify.app")
 public class HealthCheck {
 	
 	@GetMapping("/api/healthz")
