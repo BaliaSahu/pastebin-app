@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createPaste } from "../utils/api";
+import { createPaste, healthCheck } from "../utils/api";
 
 function CreatePaste() {
   const [content, setContent] = useState("");
@@ -34,9 +34,11 @@ function CreatePaste() {
   return (
     <div
       style={{
-        minHeight: "100vh",
+        minHeight: "90vh",
         backgroundColor: "#f5f6f8",
         display: "flex",
+        height:"100%",
+        width:"100%",
         justifyContent: "center",
         alignItems: "center",
         fontFamily: "Arial, sans-serif",

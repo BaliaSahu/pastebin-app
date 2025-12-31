@@ -2,7 +2,7 @@ const BASE_URL = "http://localhost:8080";
 import axios from "axios";
 
 export const healthCheck = () => {
-  return api.get("/api/healthz");
+  return fetch("http://localhost:8080/api/healthz");
 };
 
 export const createPaste = (data) => {

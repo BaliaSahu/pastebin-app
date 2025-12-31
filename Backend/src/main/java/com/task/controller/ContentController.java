@@ -16,7 +16,7 @@ import com.task.response.CreateContentRes;
 import com.task.service.ContentService;
 
 @RestController
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("https://pasteb.netlify.app")
 public class ContentController {
 	@Autowired
 	private ContentService contentService;
