@@ -1,4 +1,4 @@
-const BASE_URL = "https://paste-3.onrender.com/";
+const BASE_URL = "https://paste-3.onrender.com";
 import axios from "axios";
 
 export const healthCheck = () => {
