@@ -1,8 +1,8 @@
-const BASE_URL = "http://localhost:8080";
+const BASE_URL = "https://paste-3.onrender.com/";
 import axios from "axios";
 
 export const healthCheck = () => {
-  return fetch("http://localhost:8080/api/healthz");
+  return fetch("https://paste-3.onrender.com/api/healthz");
 };
 
 export const createPaste = (data) => {
