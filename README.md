@@ -10,7 +10,7 @@ This project is designed to work correctly in **serverless and cloud environment
 
 ## Features
 
-- Create a paste with text content
+- Create a paste with text content 
 - Optional constraints:
   - Maximum number of views (`maxViews`)
   - Time-to-live in seconds (`ttlSeconds`)
